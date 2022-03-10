@@ -1,0 +1,13 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.excluir{
+    background-color: rgb(199, 68, 68);
+}

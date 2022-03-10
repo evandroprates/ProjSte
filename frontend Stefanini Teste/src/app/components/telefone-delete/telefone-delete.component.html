@@ -1,0 +1,22 @@
+<mat-card>
+    <mat-card-title>Excluir Telefone</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input disabled matInput placeholder="Nome" [(ngModel)]= "telefone.numeroTelefone" name="telefone">
+        </mat-form-field>
+        <mat-form-field>
+            <input disabled matInput placeholder="Preço (R$)" [(ngModel)]= "telefone.tipoTelefone" name="tipo">
+        </mat-form-field>
+    </form>
+
+    <div class="botoes">
+    <button class="excluir" mat-raised-button (click)="deletePhone()">
+        Excluir
+    </button>
+
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+    </div>
+
+</mat-card>

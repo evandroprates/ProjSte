@@ -1,0 +1,30 @@
+.sidenav{
+    background-color: rgb(131, 49, 179);
+    width: 200px;
+}
+
+.sidenav a{
+    color: white;
+}
+
+.sidenav i{
+    padding-right: 10px;
+}
+
+.content{
+    padding: 16px;
+    background-color: white;
+}
+
+.mat-nav-list a:hover{
+    color: black;
+}
+
+.mat-drawer-content{
+    background: rgb(24, 24, 24);
+    height: 800px;
+}
+
+.sidenav{
+    width: 180px;
+}

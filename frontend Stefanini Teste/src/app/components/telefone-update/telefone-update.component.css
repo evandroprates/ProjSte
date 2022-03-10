@@ -1,0 +1,9 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.salvar{
+    margin-right: 15px;
+    margin-top: 15px;
+}
